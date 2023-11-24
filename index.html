@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">  
+    <div class="panel-lateral">
+        <a href="#" onclick="panelLateral()" class="close">X</a>
+        <h2>Menú principal</h2>
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicio</a>
+            <a href="#">contacto</a>
+        </ul>
+    </div>
+    <div class="panel-superior">
+        <a href="#" onclick="panelSuperior()" class="close">X</a>
+        <h2>Menú principal</h2>
+        <ul>
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Tienda</a>
+            <a href="#">Servicio</a>
+            <a href="#">contacto</a>
+        </ul>
+    </div>
+    <section id="section">
+        <div class="left">
+            <h2>Interacciones</h2>
+            <button onclick="circulo()">Circulo</button>
+            <button onclick="rectangulo()">Rectangulo</button>
+            <button onclick="rombo()">Rombo</button>
+            <button onclick="imagen()">Imágen</button>
+            <button onclick="gif()">GIF</button>
+            <button onclick="triangulo()">Triangulo</button>
+            <button onclick="hoja()">Hoja</button>
+            <button onclick="pacMan()">Pac Man</button>
+            <button onclick="luna()">Luna</button>
+            <button onclick="huevo()">Huevo</button>
+            <button onclick="trapecio()">Trapecio</button>
+            <button onclick="moveUp()">MoveTop</button>
+            <button onclick="moveLeft()">MoveLeft</button>
+            <button onclick="moveBottom()">MoveBottom</button>
+            <button onclick="moveRight()">MoveRight</button>
+            <button onclick="panelSuperior()">Panel Superior</button>
+            <button onclick="imagenFondo()">Imagen de fondo</button>
+            <button onclick="panelLateral()">Panel Lateral</button>
+            <button onclick="colorPrincipal()">Color principal</button>
+            <button onclick="lupa()">Propuesta</button>
+
+        </div>
+        <div class="right">
+            <h2 id="texto">Figura</h2>
+            <div id="figura"></div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
